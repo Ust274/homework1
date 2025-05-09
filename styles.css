@@ -1,0 +1,60 @@
+/* Skip Link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 100;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Commented out existing li styles */
+/* li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} */
+
+/* Navigation */
+nav {
+  display: inline-block;
+  width: 80%;
+  background-color: #eee;
+  padding: 10px;
+}
+
+/* Nav logo image */
+nav img {
+  width: 10%;
+}
+
+/* Grid styling */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-between;
+  align-items: start;
+  row-gap: 20px;
+}
+
+/* Only images in grid */
+.grid img {
+  width: 100%;
+}
+
+/* Flex layout */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+main {
+  padding: 20px;
+}
